@@ -1070,8 +1070,7 @@ html {
 }
 
 .cursor_corner.clicked { 
-  width: 0.2rem;  /* Contoh ukuran mengecil */
-  height: 0.05rem; /* Contoh ukuran mengecil */
+  background-color: red;
 }
 
 .cursor_top_left {
