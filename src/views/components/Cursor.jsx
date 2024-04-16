@@ -15,56 +15,70 @@ function Cursor({ clicked }) {
             className={`cursor_corner cursor_top_left`}
             style={{
               transform: clicked ? 'translate(150%, 350%)' : '',
-              transition: clicked ? 'transform 0.1s ease-in-out' : 'transform 0.1s ease-in-out'
+              backgroundColor: clicked ? 'red' : '',
+              transition: clicked ? 'transform 0.2s ease-in-out' : 'transform 0.2s ease-in-out'
             }}
           ></div>
           <div
             className={`cursor_corner cursor_top_left2 `}
             style={{
               transform: clicked ? 'translate(420%, 120%)' : '',
-              transition: clicked ? 'transform 0.1s ease-in-out' : 'transform 0.1s ease-in-out'
+              backgroundColor: clicked ? 'red' : '',
+              transition: clicked ? 'transform 0.2s ease-in-out' : 'transform 0.2s ease-in-out'
             }}
           ></div>
           <div
             className={`cursor_corner cursor_top_right `}
             style={{
               transform: clicked ? 'translate(-150%, 350%)' : '',
-              transition: clicked ? 'transform 0.1s ease-in-out' : 'transform 0.1s ease-in-out'
+              backgroundColor: clicked ? 'red' : '',
+              transition: clicked ? 'transform 0.2s ease-in-out' : 'transform 0.2s ease-in-out'
             }}
           ></div>
           <div
             className={`cursor_corner cursor_top_right2 `}
             style={{
               transform: clicked ? 'translate(-420%, 120%)' : '',
-              transition: clicked ? 'transform 0.1s ease-in-out' : 'transform 0.1s ease-in-out'
+              backgroundColor: clicked ? 'red' : '',
+              transition: clicked ? 'transform 0.2s ease-in-out' : 'transform 0.2s ease-in-out'
             }}
           ></div>
           <div
             className={`cursor_corner cursor_bottom_left `}
             style={{
               transform: clicked ? 'translate(420%, -120%)' : '',
-              transition: clicked ? 'transform 0.1s ease-in-out' : 'transform 0.1s ease-in-out'
+              backgroundColor: clicked ? 'red' : '',
+              transition: clicked ? 'transform 0.2s ease-in-out' : 'transform 0.2s ease-in-out'
             }}
           ></div>
           <div
             className={`cursor_corner cursor_bottom_left2 `}
             style={{
               transform: clicked ? 'translate(150%, -350%)' : '',
-              transition: clicked ? 'transform 0.1s ease-in-out' : 'transform 0.1s ease-in-out'
+              backgroundColor: clicked ? 'red' : '',
+              transition: clicked ? 'transform 0.2s ease-in-out' : 'transform 0.2s ease-in-out'
             }}
           ></div>
           <div
             className={`cursor_corner cursor_bottom_right `}
             style={{
               transform: clicked ? 'translate(-420%, -120%)' : '',
-              transition: clicked ? 'transform 0.1s ease-in-out' : 'transform 0.1s ease-in-out'
+              backgroundColor: clicked ? 'red' : '',
+              transition: clicked ? 'transform 0.2s ease-in-out' : 'transform 0.2s ease-in-out'
             }}
           ></div>
           <div
             className={`cursor_corner cursor_bottom_right2 `}
             style={{
               transform: clicked ? 'translate(-150%, -350%)' : '',
-              transition: clicked ? 'transform 0.1s ease-in-out' : 'transform 0.1s ease-in-out'
+              backgroundColor: clicked ? 'red' : '',
+              transition: clicked ? 'transform 0.2s ease-in-out' : 'transform 0.2s ease-in-out'
+            }}
+          ></div>
+          <div
+            className="cursor_ball"
+            style={{
+              backgroundColor: clicked ? 'red' : '',
             }}
           ></div>
         </motion.div>

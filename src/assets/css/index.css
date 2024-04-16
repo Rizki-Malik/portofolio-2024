@@ -1,5 +1,6 @@
 *{
   cursor: none;
+  user-select: none;
 }
 
 html {
@@ -1066,11 +1067,7 @@ html {
 
 .cursor_corner {
   position: absolute;
-  background-color: #fff;
-}
-
-.cursor_corner.clicked { 
-  background-color: red;
+  background-color: white;
 }
 
 .cursor_top_left {
@@ -1129,7 +1126,7 @@ html {
   height: 0.1rem;
 }
 
-.cursor::after { 
+.cursor_ball { 
   content: '';
   position: absolute;
   top: 50%;

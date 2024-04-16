@@ -1,5 +1,5 @@
 import Ship from './components/Background/Ship'
-// import Stars from './components/Background/Stars'
+import Stars from './components/Background/Stars'
 import Cursor from './components/Cursor'
 
 import { useState } from 'react';
@@ -23,7 +23,7 @@ export default function App() {
       onMouseDown={handleMouseDown}
       onMouseUp={handleMouseUp}
       >
-      {/* <Stars/> */}
+      <Stars/>
       <Ship/>
       <Cursor clicked={clicked} handleMouseDown={handleMouseDown} handleMouseUp={handleMouseUp} />
     </div>
