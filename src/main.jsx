@@ -4,9 +4,12 @@ import App from './views/Galaxy.jsx'
 import './assets/css/index.css'
 // import './assets/js/star.js'
 import './assets/js/ship.js'
+import { CursorProvider } from './views/components/Cursor/CursorContext.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <CursorProvider>
+      <App />
+    </CursorProvider>
   </React.StrictMode>,
 )
